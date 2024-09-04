@@ -57,4 +57,14 @@ nav ul li a{
     text-decoration: none;
     color :aliceblue
 }
+div{
+    display:inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgba(191, 188, 188, 0.1);
+    border-radius: 5px;
+    box-shadow:0 0 10px rgb(176, 174, 174);
+    width: 200px;
+    height:150px
+}
 
