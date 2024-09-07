@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+    background-color: rgb(230, 222, 222);
+}
+header {
+    text-align: center;
+            background-image: url('Computer_science_education.png');
+            background-size: cover;
+            background-color: rgb(37, 37, 37);
+            background-position: center;
+            height: 50vh;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position : relative;
+
+
+}
+header p{
+    color: white;
+}
+
+h1,h2,h3 {
+    color: #0040df
+}
+nav {
+    background-color: black;
+    text-align: center;
+}
+nav ul li {
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 14px;
+}
+nav ul li :hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px white;
+}
+section {
+    display: block;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section img {
+    display: block ;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 20px auto ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+
+li {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color :rgb(0, 0, 0)
+}
+.box{
+    display:inline-block;
+    padding: 10px; 
+    margin: 10px;
+    background-color:rgba(191, 188, 188, 0.1);
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+.b1{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: block;
+    color : rgb(0, 0, 0);
+    padding: 5px; 
+}
+.button {
+    padding: 12px 12px;
+    color:white;
+    background-color: blue;
+    font-size: medium;
+    text-decoration: none;
+}
+h1 {
+    color: white;
+}
+.button:hover{
+    background-color: rgb(7, 77, 163);
+
+}
+.hex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.hex {
+    width: 150px;
+    height: 86.6px; /* Hex height is 1.732 * side length / 2 */
+    background-color:gainsboro;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    padding:15px;
+}
+
+/* .hex.active {
+    background-color: yellow; /* Highlighted hexagon 
+} */
+
+.hex:hover {
+    background-color:yellow;
+}
+
+.hex-content {
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+#hex1{
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
